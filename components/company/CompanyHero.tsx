@@ -22,14 +22,14 @@ export default function CompanyHero() {
       />
 
       {/* Fine grid */}
-      <div
+      {/* <div
         className="absolute inset-0 pointer-events-none opacity-[0.05]"
         style={{
           backgroundImage:
             'linear-gradient(rgba(255,255,255,1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,1) 1px, transparent 1px)',
           backgroundSize: '52px 52px',
         }}
-      />
+      /> */}
 
       {/* Green ambient top-left */}
       <div
@@ -41,7 +41,7 @@ export default function CompanyHero() {
       />
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto w-full px-6 pb-20 pt-46">
+      <div className="relative z-10 md:mt-22 max-w-7xl mx-auto w-full px-6 pb-20 pt-46">
 
         {/* Eyebrow */}
         <div className="flex items-center gap-3 mb-10">

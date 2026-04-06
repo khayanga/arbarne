@@ -12,10 +12,10 @@ export default function GuidesPage() {
   return (
     <div className="min-h-screen bg-gray-50" style={{ fontFamily: 'Georgia, serif' }}>
 
-      {/* ── Hero Section ──────────────────────────────────────── */}
+     
       <GuidesHero />
 
-      {/* ── Guides Grid ───────────────────────────────────────── */}
+      
       <GuidesGrid />
 
     </div>

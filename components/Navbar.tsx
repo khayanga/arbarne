@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Menu, X, Leaf } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
@@ -19,7 +20,7 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  // Close menu on route change
+  
   useEffect(() => {
     setOpen(false)
   }, [pathname])
@@ -59,18 +60,41 @@ export default function Navbar() {
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
-        {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-lg bg-linear-to-br from-teal-900 to-green-500 flex items-center justify-center">
-            <Leaf className="w-4 h-4 text-white" />
-          </div>
-          <span
-            className={`font-bold text-lg transition-colors ${
-              useDarkText ? 'text-teal-900' : 'text-white'
-            }`}
+      
+
+
+        <Link
+          href="https://www.linkedin.com/company/arbarne-agriculture-group/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div
+            
           >
-            Arbarne
-          </span>
+            {/* Dark logo (for light backgrounds) */}
+            <Image
+              src="/logo.png"
+              alt="Logo"
+              width={200}
+              height={200}
+              className={` w-auto object-contain transition-opacity duration-300 ${
+                useDarkText ? 'opacity-100' : 'opacity-0 absolute'
+              }`}
+              priority
+            />
+
+            {/* Light logo (for dark backgrounds) */}
+            <Image
+              src="/logo-light.png"
+              alt="Logo"
+              width={200}
+              height={200}
+              className={` w-auto object-contain transition-opacity duration-300 ${
+                useDarkText ? 'opacity-0 absolute' : 'opacity-100'
+              }`}
+              priority
+            />
+          </div>
         </Link>
 
         {/* Desktop Links */}
@@ -103,7 +127,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <Link
-          href="/shambany"
+          href="/#shambany"
           className="hidden md:block px-6 py-3 bg-green-500 text-white text-sm font-semibold rounded-[0.5rem] hover:bg-green-400 transition"
         >
           Get Started
@@ -145,7 +169,7 @@ export default function Navbar() {
 
             <div className="pt-3 border-t border-gray-100 flex flex-col gap-3">
               <Link
-                href="/shambany"
+                href="/#shambany"
                 onClick={() => setOpen(false)}
                 className="w-full py-2.5 bg-teal-900 text-white text-sm font-semibold rounded-lg text-center"
               >

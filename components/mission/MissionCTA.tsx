@@ -88,7 +88,7 @@ export default function MissionCTA() {
               {
                 label: 'Explore Shambani',
                 desc: 'The technology platform driving our mission forward.',
-                href: '/shambani',
+                href: '/',
                 primary: true,
               },
               {

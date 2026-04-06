@@ -1,3 +1,4 @@
+import AnimatedSection from '@/components/AnimatedSection'
 import AudienceTabs from '@/components/business/AudienceTabs'
 import BusinessHero from '@/components/business/BusinessHero'
 import Customer from '@/components/business/Customer'
@@ -10,12 +11,12 @@ import React from 'react'
 const page = () => {
   return (
     <>
-    <BusinessHero/>
-    <AudienceTabs/>
-    <Works/>
-    <ROIBanner/>
-    <Pricing/>
-    <Customer/>
+    <AnimatedSection><BusinessHero/></AnimatedSection>
+    <AnimatedSection><AudienceTabs/></AnimatedSection>
+    <AnimatedSection><Works/></AnimatedSection>
+    <AnimatedSection><ROIBanner/></AnimatedSection>
+    <AnimatedSection><Pricing/></AnimatedSection>
+    <AnimatedSection><Customer/></AnimatedSection>
     </>
   )
 }

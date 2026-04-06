@@ -1,3 +1,4 @@
+import AnimatedSection from "@/components/AnimatedSection";
 import Benefits from "@/components/shambany/Benefits";
 import Features from "@/components/shambany/Features";
 import GetStarted from "@/components/shambany/GetStarted";
@@ -9,12 +10,14 @@ import Story from "@/components/shambany/Story";
 export default function Home() {
   return (
   <>
-  <Hero/>
-  <Story/>
-  <Benefits/>
-  <Process/>
-  <Features/>
-  <GetStarted/>
+  <AnimatedSection><Hero/></AnimatedSection>
+  <AnimatedSection><Story/></AnimatedSection>
+  <AnimatedSection><Benefits/></AnimatedSection>
+  <AnimatedSection><Process/></AnimatedSection>
+  <AnimatedSection><Features/></AnimatedSection>
+  <AnimatedSection><GetStarted/></AnimatedSection>
+  
+  
   
   </>
   );

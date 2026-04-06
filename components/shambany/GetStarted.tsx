@@ -18,7 +18,7 @@ export default function GetStarted() {
   return (
     <>
       {/* ── Customer Promise — dark cinematic banner ── */}
-      <section className="relative overflow-hidden py-24">
+      <section id="shambany" className="relative overflow-hidden py-24">
         <div className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1560493676-04071c5f467b?w=1800&auto=format&fit=crop&q=80)' }} />
         <div className="absolute inset-0 bg-teal-950/85" />
@@ -68,7 +68,7 @@ export default function GetStarted() {
                 <span className="text-green-600 ">your farm?</span>
               </h2>
 
-              <p className="text-teal-900/65 text-base leading-relaxed mb-10">
+              <p className="text-teal-900/65 text-lg leading-relaxed mb-10">
                 Submit an inquiry and our team will get back to you within 24 hours to discuss
                 how Shambani can work for your specific farm.
               </p>
@@ -84,7 +84,7 @@ export default function GetStarted() {
                     <div className="w-6 h-6 rounded-full bg-green-100 flex items-center justify-center shrink-0">
                       <Check size={12} className="text-green-600" strokeWidth={2.5} />
                     </div>
-                    <span className="text-teal-900/70 text-sm">{p}</span>
+                    <span className="text-teal-900/70 text-md">{p}</span>
                   </div>
                 ))}
               </div>
@@ -105,14 +105,14 @@ export default function GetStarted() {
                     </div>
                     <h3 className="text-2xl font-bold text-teal-900 mb-2"
                       style={{ fontFamily: 'Georgia, serif' }}>Inquiry received!</h3>
-                    <p className="text-teal-900/50 text-sm">We'll be in touch within 24 hours.</p>
+                    <p className="text-teal-900/50 text-md">We'll be in touch within 24 hours.</p>
                   </div>
                 ) : (
                   <>
                     <div className="mb-8">
                       <h3 className="text-xl font-bold text-teal-900 mb-1"
                         style={{ fontFamily: 'Georgia, serif' }}>Submit an Inquiry</h3>
-                      <p className="text-teal-900/45 text-sm">We respond within 24 hours.</p>
+                      <p className="text-teal-900/45 text-md">We respond within 24 hours.</p>
                     </div>
 
                     <form onSubmit={handleSubmit} className="space-y-5">
@@ -153,13 +153,13 @@ export default function GetStarted() {
                       <button
                         type="submit"
                         className="group w-full inline-flex items-center justify-center gap-2.5 px-6 py-4 bg-teal-900 hover:bg-teal-800 text-white font-bold rounded-[0.5rem] transition-colors duration-200 mt-2"
-                        style={{ fontFamily: 'Georgia, serif' }}
+                        
                       >
                         Submit Inquiry
                         <ArrowRight size={17} className="group-hover:translate-x-1 transition-transform duration-200" />
                       </button>
 
-                      <p className="text-center text-xs text-teal-900/25 pt-1">
+                      <p className="text-center text-sm text-teal-900/25 pt-1">
                         No spam. Unsubscribe anytime.
                       </p>
                     </form>

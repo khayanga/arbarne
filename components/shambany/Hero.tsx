@@ -1,122 +1,119 @@
-import { ArrowRight, ChevronDown } from 'lucide-react'
-
 export default function Hero() {
   return (
-    <section className="py:32 md:py-42 relative min-h-screen flex flex-col items-center justify-center text-center overflow-hidden">
-
-      {/* Background */}
+    <section className="relative min-h-[85vh] flex flex-col justify-center overflow-hidden">
+      {/* Background — African farmland */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: 'url(/africa-landscape.jpg)' }}
+        style={{
+          backgroundImage: "url(/africa-landscape.jpg)",
+        }}
       />
 
-      {/* Overlays */}
-      <div className="absolute inset-0 bg-teal-950/80" />
+      {/* Layered overlays */}
+      <div className="absolute inset-0 bg-teal-950/60" />
       <div
         className="absolute inset-0"
         style={{
           background:
-            'linear-gradient(135deg, rgba(2,44,36,0.9) 0%, rgba(15,60,50,0.6) 55%, transparent 100%)',
+            "linear-gradient(to top, rgba(2,30,22,0.98) 0%, rgba(2,30,22,0.7) 40%, rgba(2,30,22,0.15) 100%)",
         }}
       />
 
-      {/* Subtle glow */}
+      {/* Green ambient top-left */}
       <div
-        className="absolute bottom-0 right-0 w-125 h-100 pointer-events-none"
+        className="absolute top-0 left-0 w-150 h-100 pointer-events-none"
         style={{
           background:
-            'radial-gradient(ellipse at 80% 80%, rgba(74,222,128,0.12) 0%, transparent 60%)',
+            "radial-gradient(ellipse at 0% 0%, rgba(74,222,128,0.09) 0%, transparent 65%)",
         }}
       />
 
-      
-
       {/* Content */}
-      <div className="relative z-10 max-w-4xl px-6 mt-12 md:mt-20 flex flex-col items-center">
-
+      <div className="relative z-10 max-w-7xl mx-auto w-full px-6 pb-20 pt-46 md:mt-22">
         {/* Eyebrow */}
-        <div className="mb-6">
-          <div className="flex items-center gap-2 px-4 py-1.5 rounded-full border border-green-400/30 bg-green-400/10 backdrop-blur-sm">
-            <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-            <span className="text-green-300 text-xs font-semibold tracking-widest uppercase">
-              Live Farm Intelligence
+        <div className="flex items-center gap-3 mb-10">
+          <div className="flex items-center gap-2 px-4 py-2 rounded-full border border-green-400/30 bg-green-500/12 backdrop-blur-sm">
+            <span className="w-1.5 h-1.5 rounded-full bg-green-400" />
+            <span className="text-green-300 text-xs font-bold uppercase tracking-widest">
+              Live farm intelligence
             </span>
           </div>
+          {/* <div className="h-px w-16 bg-white/10" /> */}
         </div>
 
-        {/* Headline */}
-        <h1
-          className="leading-[0.95] font-bold tracking-tight mb-6"
-          style={{ fontFamily: 'Georgia, serif' }}
-        >
-          <span className="block text-white/90 text-[clamp(3rem,7vw,6rem)]">
-            Karibu
-          </span>
-          <span
-            className="block text-[clamp(3.5rem,9vw,7.5rem)]"
-            style={{
-              background:
-                'linear-gradient(90deg, #4ade80 0%, #34d399 60%, #2dd4bf 100%)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-            }}
-          >
-            Shambani
-          </span>
-        </h1>
-
-        {/* Subtext */}
-        <p
-          className="text-white/70 max-w-2xl mb-4 leading-relaxed text-xl lg:text-5xl"
-          style={{
-            fontFamily: 'Georgia, serif',
-            fontSize: 'clamp(1.1rem, 2vw, 1.35rem)',
-          }}
-        >
-          Monitor, manage, and control your farm operations remotely, in real time.
-        </p>
-
-        {/* Supporting lines */}
-        <div className="space-y-2 mb-10">
-          {[
-            'Transforming farm operations through real-time, data-driven intelligence',
-            'Creating future-ready farm systems for Africa',
-          ].map((text, i) => (
-            <div key={i} className="flex items-center justify-center gap-2">
+        {/* Split layout: headline left, manifesto right */}
+        <div className="grid lg:grid-cols-[1.1fr_1fr] gap-12 items-end">
+          <div>
+            <h1
+              className="font-bold text-white leading-none mb-12"
+              style={{
+                fontFamily: "Georgia, serif",
+                fontSize: "clamp(3rem, 8vw, 6rem)",
+              }}
+            >
+              Karibu,{" "}
               <span
-                className={`w-1.5 h-1.5 rounded-full ${
-                  i === 0 ? 'bg-green-400' : 'bg-teal-400'
-                }`}
-              />
-              <span className="text-white/70 text-md ">{text}</span>
+                className="block pb-2"
+                style={{
+                  background:
+                    "linear-gradient(90deg, #4ade80 0%, #2dd4bf 100%)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                }}
+              >
+                Shambany.
+              </span>
+            </h1>
+
+            {/* Stat chips */}
+            <div className="flex flex-wrap gap-3">
+              {[
+                { val: "Real-Time", label: "Farm Monitoring" },
+                { val: "Africa", label: "Continent-wide focus" },
+                { val: "Data-Driven", label: "Decision Making" },
+              ].map(({ val, label }) => (
+                <div
+                  key={label}
+                  className="rounded-[1rem] border border-white/10 bg-white/6 backdrop-blur-sm px-5 py-3"
+                >
+                  <div
+                    className="text-white font-bold text-base"
+                    style={{ fontFamily: "Georgia, serif" }}
+                  >
+                    {val}
+                  </div>
+                  <div className="text-white/55 text-xs mt-0.5">{label}</div>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          </div>
 
-        {/* CTAs */}
-        <div className="flex flex-wrap justify-center gap-4">
-          <a
-            href="#contact"
-            className="group rounded-[0.5rem]  inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-semibold  transition-all duration-200 px-8 py-4 shadow-lg shadow-green-900/30"
-          >
-            Get Started
-            <ArrowRight
-              size={18}
-              className="group-hover:translate-x-1 transition-transform"
-            />
-          </a>
+          {/* Right: brand statement */}
+          <div className="border-l border-white/10 pl-10">
+            <p
+              className="text-white/80 leading-relaxed"
+              style={{
+                fontFamily: "Georgia, serif",
+                fontSize: "clamp(1rem, 1.4vw, 1.15rem)",
+              }}
+            >
+              We are building the next generation of African agriculture where
+              every farm operates with clarity, precision, and purpose.
+            </p>
 
-          <a
-            href="#how-it-works"
-            className="inline-flex items-center gap-2 border border-white/20 text-white/70 hover:text-white hover:border-white/40 hover:bg-white/5 rounded-[0.5rem] transition-all duration-200 px-8 py-4 backdrop-blur-sm"
-          >
-            See How It Works
-          </a>
+            <p className="text-white/70 leading-relaxed">
+              Through intelligent systems and connected technologies, we enable
+              farmers to move beyond guesswork into structured, market-ready
+              production improving productivity, increasing profitability, and
+              transforming food systems across the continent.
+            </p>
+
+            <p className="text-green-400 font-semibold tracking-wide mt-1">
+              This is the great transition a shift toward future-ready farms.
+            </p>
+          </div>
         </div>
       </div>
-
-      
-      
     </section>
-  )
+  );
 }

@@ -21,7 +21,7 @@ export default function Features() {
               Everything your farm needs.
             </h2>
           </div>
-          <p className="text-teal-900/55 text-md leading-relaxed max-w-xs text-right">
+          <p className="text-teal-900/55 text-lg leading-relaxed max-w-xs md:text-right">
             One platform replacing spreadsheets, phone calls, guesswork, and manual records.
           </p>
         </div>
@@ -45,7 +45,7 @@ export default function Features() {
                 </span>
               </div>
 
-              <div className="w-11 h-11 rounded-[2rem] bg-green-500/20 border border-green-400/25 flex items-center justify-center text-white">
+              <div className="w-11 h-11 rounded-[2rem] bg-green-500/20 border border-green-400/25 flex items-center justify-center text-green-400 ">
                 <CloudRain size={20} />
               </div>
             </div>

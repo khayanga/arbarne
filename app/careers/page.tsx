@@ -1,3 +1,4 @@
+import AnimatedSection from '@/components/AnimatedSection'
 import CareersHero from '@/components/careers/CareersHero'
 import CoreTeam from '@/components/careers/CoreTeam'
 import CareersPage from '@/components/careers/Main'
@@ -9,10 +10,10 @@ import React from 'react'
 const page = () => {
   return (
     <>
-    <CareersHero/>
-    <OpenRoles/>
-    <ManagementTeam/>
-    <CoreTeam/>
+    <AnimatedSection><CareersHero/></AnimatedSection>
+    <AnimatedSection><OpenRoles/></AnimatedSection>
+    <AnimatedSection><ManagementTeam/></AnimatedSection>
+    <AnimatedSection><CoreTeam/></AnimatedSection>
     {/* <CareersPage/> */}
     </>
   )

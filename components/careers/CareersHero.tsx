@@ -27,7 +27,7 @@ export default function CareersHero() {
         }}
       />
 
-      <div className="relative z-10 max-w-7xl mx-auto w-full px-6 pb-20 pt-40  ">
+      <div className="relative z-10 max-w-7xl mx-auto w-full px-6 pb-20 pt-40 md:mt-22 ">
 
         {/* Eyebrow */}
         <div className="flex items-center gap-3 ">
