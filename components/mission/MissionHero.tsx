@@ -3,7 +3,7 @@
 
 export default function MissionHero() {
   return (
-    <section className="relative min-h-[85vh] flex flex-col justify-center overflow-hidden">
+    <section className="relative min-h-[65vh] flex flex-col justify-center overflow-hidden">
 
       {/* Background */}
       <div
@@ -34,7 +34,7 @@ export default function MissionHero() {
       />
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto w-full px-6 pb-20 pt-40 md:mt-22">
+      <div className="relative z-10 md:mt-22 max-w-7xl mx-auto w-full px-6 pb-12 pt-28">
 
         {/* Eyebrow */}
         <div className="flex items-center gap-3 mb-12">
@@ -69,15 +69,15 @@ export default function MissionHero() {
                   WebkitTextFillColor: 'transparent',
                 }}
               >
-                into future-ready, productive systems.
+                into productive systems.
               </span>
             </h1>
 
-            <p className="text-white/75 text-lg max-w-xl leading-relaxed mb-10">
+            {/* <p className="text-white/75 text-lg max-w-xl leading-relaxed mb-10">
               We are driving the transition from traditional, inefficient farming
               practices toward structured, intelligent, and profitable agricultural
               systems across Africa.
-            </p>
+            </p> */}
 
             {/* Pillars */}
             <div className="flex flex-wrap gap-3">
@@ -96,7 +96,7 @@ export default function MissionHero() {
                   >
                     {val}
                   </div>
-                  <div className="text-white/50 text-xs mt-0.5">
+                  <div className="text-white/50 text-sm mt-0.5">
                     {label}
                   </div>
                 </div>
@@ -119,11 +119,7 @@ export default function MissionHero() {
               systems, data-driven decisions, and scalable infrastructure.
             </p>
 
-            <p className="text-white/60 leading-relaxed">
-              Our mission is to equip farms with the tools, insights, and systems
-              needed to operate with clarity, precision, and consistency 
-              unlocking higher productivity and long-term profitability.
-            </p>
+            
 
             <p className="text-green-400 font-semibold tracking-wide">
               This is the great transition of African agriculture.

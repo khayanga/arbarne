@@ -16,7 +16,7 @@ export default function Story() {
         {/* Heading */}
         <div className="text-center mb-24">
           <p className="text-sm font-bold tracking-[0.25em] text-green-600 uppercase mb-4">
-            A Shambani Story
+            A Shambany Story
           </p>
           <h2
             className="text-3xl md:text-5xl font-bold text-teal-900"
@@ -38,7 +38,7 @@ export default function Story() {
             {/* Left (text) */}
             <div className="lg:pr-16">
               <div className="inline-block px-3 py-1 mb-6 text-xs font-bold uppercase tracking-widest text-green-600 bg-green-100 rounded-full">
-                Before Shambani
+                Before Shambany
               </div>
 
               <h3
@@ -93,7 +93,7 @@ export default function Story() {
             {/* Right */}
             <div className="lg:pl-16 order-1 lg:order-2">
               <div className="inline-block px-3 py-1 mb-6 text-xs font-bold uppercase tracking-widest text-white bg-teal-900 rounded-full">
-                After Shambani
+                After Shambany
               </div>
 
               <h3
@@ -123,7 +123,7 @@ export default function Story() {
                   outside.”
                 </p>
                 <p className="text-green-400 text-sm mt-3 uppercase tracking-wide">
-                  That is Shambani.
+                  That is Shambany.
                 </p>
               </div>
             </div>

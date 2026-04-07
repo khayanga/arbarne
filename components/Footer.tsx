@@ -1,5 +1,7 @@
 import Link from 'next/link'
-import { Leaf, Mail, Phone, MapPin, ExternalLink } from 'lucide-react'
+import { Leaf, Mail, Phone, MapPin } from 'lucide-react'
+// import { Linkedin, Instagram } from 'lucide-react'
+
 
 const footerLinks = {
   Product: [
@@ -18,6 +20,19 @@ const footerLinks = {
     { label: 'Terms of Service', href: '#' },
   ],
 }
+
+// const socials = [
+//   {
+//     icon: <Linkedin className="w-4 h-4" />,
+//     href: "https://www.linkedin.com/company/arbarne-agriculture-group/",
+//     label: "LinkedIn",
+//   },
+//   {
+//     icon: <Instagram className="w-4 h-4" />,
+//     href: "https://www.instagram.com/futurefarms_africa",
+//     label: "Instagram",
+//   },
+// ];
 
 export default function Footer() {
   return (
@@ -57,8 +72,8 @@ export default function Footer() {
           </p>
           <div className="flex flex-col gap-2 text-sm text-white/50">
             <span className="flex items-center gap-2"><MapPin size={14} /> Nairobi, Kenya</span>
-            <span className="flex items-center gap-2"><Mail size={14} /> hello@arbarne.com</span>
-            <span className="flex items-center gap-2"><Phone size={14} /> +254 700 000 000</span>
+            <span className="flex items-center gap-2"><Mail size={14} /> arbarnegroup@gmail.com</span>
+            <span className="flex items-center gap-2"><Phone size={14} /> +254757721222</span>
           </div>
         </div>
 
@@ -84,8 +99,17 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-white/30">
           <span>© {new Date().getFullYear()} Arbarne Agriculture Group. All rights reserved.</span>
           {/* <div className="flex gap-4">
-            <a href="#" className="hover:text-white/60 transition-colors"><Twitter size={16} /></a>
-            <a href="#" className="hover:text-white/60 transition-colors"><Linkedin size={16} /></a>
+           {socials.map((s) => (
+              <a
+                key={s.label}
+                href={s.href}
+                target="_blank"
+                aria-label={s.label}
+                className="w-9 h-9 rounded-full border border-white/10 flex items-center justify-center text-white/60 hover:border-primary hover:text-primary transition"
+              >
+                {s.icon}
+              </a>
+            ))}
           </div> */}
         </div>
       </div>

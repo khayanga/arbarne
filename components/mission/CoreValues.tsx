@@ -97,7 +97,7 @@ export default function CoreValues() {
                       {title}
                     </h3>
 
-                    <p className="text-md text-teal-900/70 leading-relaxed max-w-md">
+                    <p className="text-lg text-teal-900/70 leading-relaxed max-w-md">
                       {body}
                     </p>
                   </div>

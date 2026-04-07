@@ -22,14 +22,14 @@ export default function CompanyHero() {
       />
 
       {/* Fine grid */}
-      {/* <div
+      <div
         className="absolute inset-0 pointer-events-none opacity-[0.05]"
         style={{
           backgroundImage:
             'linear-gradient(rgba(255,255,255,1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,1) 1px, transparent 1px)',
           backgroundSize: '52px 52px',
         }}
-      /> */}
+      />
 
       {/* Green ambient top-left */}
       <div

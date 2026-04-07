@@ -4,7 +4,7 @@ import { Package, Users, MapPin } from 'lucide-react'
 const team = [
   {
     name: 'Virgil Khayanga',
-    role: 'Product Manager',
+    role: 'Head of Technology',
     dept: 'Shambani',
     bio: 'Leads product strategy and development for digital farm monitoring solutions.',
     image: '/virgil.jpg',
@@ -16,7 +16,7 @@ const team = [
     role: 'Farmer Experience Associate',
     dept: 'Operations',
     bio: 'Works closely with farmers to ensure seamless onboarding and support.',
-    image: '/virgil.jpg',
+    image: '/berly.jpg',
     icon: Users,
     color: '#2dd4bf',
   },
