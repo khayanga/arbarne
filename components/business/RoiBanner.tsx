@@ -26,14 +26,14 @@ export default function ROIBanner() {
               { value: '5 min', label: 'Time to get Shambani live', color: '#4ade80' },
               { value: '99.8%', label: 'Platform uptime SLA', color: '#2dd4bf' },
             ].map(({ value, label, color }) => (
-              <div key={label} className="rounded-2xl border border-white/8 bg-white/4 px-6 py-6">
+              <div key={label} className="rounded-[0.5rem] border border-white/8 bg-white/4 px-6 py-6">
                 <div
                   className="font-bold leading-none mb-2"
                   style={{ fontFamily: 'Georgia, serif', fontSize: '2.4rem', color }}
                 >
                   {value}
                 </div>
-                <div className="text-white/45 text-xs leading-relaxed">{label}</div>
+                <div className="text-white/45 text-md leading-relaxed">{label}</div>
               </div>
             ))}
           </div>
@@ -57,8 +57,8 @@ export default function ROIBanner() {
             </blockquote>
             <div className="flex items-center gap-3">
               <div className="w-8 h-px bg-green-500/50" />
-              <span className="text-white/40 text-xs uppercase tracking-widest font-bold">
-                Shambani Research, 2024
+              <span className="text-white/40 text-sm uppercase tracking-widest font-bold">
+                Shambany Research, 2025
               </span>
             </div>
           </div>

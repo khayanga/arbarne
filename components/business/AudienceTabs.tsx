@@ -69,7 +69,7 @@ const tabs = {
     features: [
       {
         icon: Users,
-        title: "Hire Expert Farm Managers",
+        title: "Hire farm management services",
         body: "Professional agronomists and management teams run your farm using Shambani technology.",
       },
       {
@@ -157,7 +157,7 @@ export default function AudienceTabs() {
             >
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_10%,rgba(74,222,128,0.12),transparent_65%)]" />
 
-              <h3 className="relative z-10 text-green-400 text-xs font-bold uppercase tracking-widest mb-5">
+              <h3 className="relative z-10 text-green-400 text-sm font-bold uppercase tracking-widest mb-5">
                 {tab.who.heading}
               </h3>
 
@@ -167,7 +167,7 @@ export default function AudienceTabs() {
                     <div className=" ">
                       <Check size={12} className="text-green-400" />
                     </div>
-                    <span className="text-white/65 text-sm leading-relaxed">
+                    <span className="text-white/65 text-md leading-relaxed">
                       {p}
                     </span>
                   </li>
@@ -182,7 +182,7 @@ export default function AudienceTabs() {
             >
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_90%,rgba(74,222,128,0.12),transparent_65%)]" />
 
-              <h3 className="relative z-10 text-green-400 text-xs font-bold uppercase tracking-widest mb-5">
+              <h3 className="relative z-10 text-green-400 text-sm font-bold uppercase tracking-widest mb-5">
                 {tab.services.heading}
               </h3>
 
@@ -192,7 +192,7 @@ export default function AudienceTabs() {
                     <div >
                       <Check size={12} className="text-green-400" />
                     </div>
-                    <span className="text-white/65 text-sm leading-relaxed">
+                    <span className="text-white/65 text-md leading-relaxed">
                       {p}
                     </span>
                   </li>
@@ -228,12 +228,12 @@ export default function AudienceTabs() {
                   </div>
 
                   {/* Title */}
-                  <h3
-                    className="font-bold text-teal-900 mb-2 leading-snug"
+                  <h2
+                    className="font-bold text-lg text-teal-900 mb-2 leading-snug"
                     style={{ fontFamily: "Georgia, serif" }}
                   >
                     {title}
-                  </h3>
+                  </h2>
 
                   {/* Body */}
                   <p className="text-teal-900/60 text-md leading-relaxed">

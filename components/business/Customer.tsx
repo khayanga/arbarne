@@ -191,7 +191,7 @@ export default function Customer() {
               A remarkable transformation in how she manages her farm.
             </h3>
 
-            <div className="space-y-4 text-teal-900/60 text-md leading-relaxed">
+            <div className="space-y-4 text-teal-900/60 text-lg leading-relaxed">
               <p>
                 Ms. Nereah Agutu, the owner of Versatile Growers, has
                 experienced a remarkable transformation in how she manages her
@@ -236,7 +236,7 @@ export default function Customer() {
               >
                 Ms. Nereah Agutu
               </div>
-              <div className="text-teal-900/50 text-sm">
+              <div className="text-teal-900/50 text-md">
                 Owner, Versatile Growers
               </div>
             </div>

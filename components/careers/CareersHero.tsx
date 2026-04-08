@@ -74,10 +74,10 @@ export default function CareersHero() {
                 </span>
               </div>
               <div>
-                <div className="text-white font-bold text-base" style={{ fontFamily: 'Georgia, serif' }}>
+                <div className="text-white font-bold text-lg" style={{ fontFamily: 'Georgia, serif' }}>
                   Ms. Amutabi Ayuma
                 </div>
-                <div className="text-white/65 text-sm">Founder & CEO, Arbarne</div>
+                <div className="text-white/65 text-md">Founder & CEO, Arbarne</div>
               </div>
             </div>
           </div>
@@ -97,7 +97,7 @@ export default function CareersHero() {
               future-ready farms across East Africa by{' '}
               <span className="text-green-400">2035.</span>
             </p>
-            <p className="text-white/45 text-md leading-relaxed">
+            <p className="text-white/45 text-lg leading-relaxed">
               Join the team building the technology and systems that will power Africa's
               agricultural future one farm at a time.
             </p>

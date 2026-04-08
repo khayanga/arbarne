@@ -98,14 +98,14 @@ export default function Works() {
                         </span>
 
                         <h4
-                          className="text-white font-bold text-base"
+                          className="text-white font-bold text-lg"
                           style={{ fontFamily: 'Georgia, serif' }}
                         >
                           {title}
                         </h4>
                       </div>
 
-                      <p className="text-white/55 text-md leading-relaxed">
+                      <p className="text-white/55 text-lg leading-relaxed">
                         {body}
                       </p>
                     </div>

@@ -50,7 +50,7 @@ export default function OpenRoles() {
           </div>
           <div className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-green-200 bg-green-50">
             <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-            <span className="text-green-700 text-sm font-bold">
+            <span className="text-green-700 text-md font-bold">
               {roles.reduce((a, r) => a + r.openings, 0)} open position{roles.reduce((a, r) => a + r.openings, 0) > 1 ? 's' : ''}
             </span>
           </div>
@@ -95,7 +95,7 @@ export default function OpenRoles() {
                     {/* Meta row */}
                     <div className="flex flex-wrap items-center gap-3 mb-5">
                       <div
-                        className={`flex items-center gap-1.5 px-3 py-1 rounded-full border text-xs font-bold uppercase tracking-wider ${
+                        className={`flex items-center gap-1.5 px-3 py-1 rounded-full border text-md font-bold uppercase tracking-wider ${
                           featured
                             ? 'border-green-400/30 bg-green-500/15 text-green-300'
                             : 'border-green-200 bg-green-50 text-green-700'
@@ -117,7 +117,7 @@ export default function OpenRoles() {
                       ].map(({ icon: Icon, label }) => (
                         <div
                           key={label}
-                          className={`flex items-center gap-1.5 text-sm font-medium ${
+                          className={`flex items-center gap-1.5 text-md font-medium ${
                             featured ? 'text-white/55' : 'text-teal-900/45'
                           }`}
                         >
@@ -137,7 +137,7 @@ export default function OpenRoles() {
 
                     {/* Description */}
                     <p
-                      className={`text-md leading-relaxed max-w-2xl mb-6 ${
+                      className={`text-lg leading-relaxed max-w-2xl mb-6 ${
                         featured ? 'text-white/65' : 'text-teal-900/55'
                       }`}
                     >
@@ -149,7 +149,7 @@ export default function OpenRoles() {
                       {tags.map((tag) => (
                         <span
                           key={tag}
-                          className={`px-3 py-1.5 rounded-full text-xs font-medium border ${
+                          className={`px-3 py-1.5 rounded-full text-sm font-medium border ${
                             featured
                               ? 'border-white/12 bg-white/6 text-white/50'
                               : 'border-gray-100 bg-white text-teal-900/50'
@@ -165,7 +165,7 @@ export default function OpenRoles() {
                   <div className="flex flex-col items-start lg:items-end gap-4 lg:min-w-45">
                     <a
                       href={applyLink}
-                      className={`group inline-flex items-center gap-2.5 px-7 py-4 rounded-[0.5rem] font-bold text-sm transition-all duration-200 whitespace-nowrap ${
+                      className={`group inline-flex items-center gap-2.5 px-7 py-4 rounded-[0.5rem] font-bold text-md transition-all duration-200 whitespace-nowrap ${
                         featured
                           ? 'bg-green-500 hover:bg-green-400 text-white shadow-lg shadow-green-500/25'
                           : 'bg-teal-900 hover:bg-teal-800 text-white'
@@ -180,7 +180,7 @@ export default function OpenRoles() {
                     </a>
 
                     <p
-                      className={`text-sm text-center lg:text-right ${
+                      className={`text-md text-center lg:text-right ${
                         featured ? 'text-white/50' : 'text-teal-900/30'
                       }`}
                     >

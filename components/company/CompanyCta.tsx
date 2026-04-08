@@ -75,7 +75,7 @@ export default function CompanyCTA() {
               and ready for the future.
             </h2>
 
-            <p className="text-white/55 text-base leading-relaxed max-w-lg">
+            <p className="text-white/55 text-lg leading-relaxed max-w-lg">
               From technology development to farm management services, every part of Arbarne
               is built to transform African agriculture one farm at a time.
             </p>
@@ -119,7 +119,7 @@ export default function CompanyCTA() {
                   >
                     {label}
                   </div>
-                  <div className={`text-md leading-relaxed ${dark ? 'text-white/70' : 'text-white/55'}`}>
+                  <div className={`text-lg leading-relaxed ${dark ? 'text-white/70' : 'text-white/55'}`}>
                     {desc}
                   </div>
                 </div>

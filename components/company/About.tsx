@@ -44,7 +44,7 @@ export default function About() {
               Africa's future lies in the hands of its farmers.
             </h1>
 
-            <p className="text-teal-900/65 text-base leading-relaxed mb-4">
+            <p className="text-teal-900/65 text-lg leading-relaxed mb-4">
               Arbarne was founded on this simple belief. With the continent's
               population projected to reach{" "}
               <strong className="text-teal-900 font-semibold">
@@ -53,12 +53,12 @@ export default function About() {
               agriculture must evolve to meet rising food demand and support
               sustainable livelihoods.
             </p>
-            <p className="text-teal-900/65 text-base leading-relaxed mb-4">
+            <p className="text-teal-900/65 text-lg leading-relaxed mb-4">
               Yet today, many farmers operate within inefficient systems that
               lead to low yields, high costs, and environmental strain
               challenges further intensified by climate change.
             </p>
-            <p className="text-teal-900/75 text-base leading-relaxed font-medium">
+            <p className="text-teal-900/75 text-lg leading-relaxed font-medium">
               We exist to transform these systems, enabling farms to become{" "}
               <span className="text-green-700">productive, resilient,</span> and
               ready for the future.
@@ -158,7 +158,7 @@ export default function About() {
                   </span>
                 </h2>
               </div>
-              <p className="text-white/55 text-base leading-relaxed self-center max-w-md text-right">
+              <p className="text-white/55 text-lg leading-relaxed self-center max-w-md text-right">
                 Arbarne is a limited liability company (LLC) driving the
                 development of farm technologies and systems. It serves as the
                 core engine behind both technology development and the Future
@@ -179,12 +179,12 @@ export default function About() {
                   </div>
                   
                   <h3
-                    className="text-white font-bold text-base mb-2"
+                    className="text-white font-bold text-lg mb-2"
                     style={{ fontFamily: "Georgia, serif" }}
                   >
                     {title}
                   </h3>
-                  <p className="text-white/65 text-md leading-relaxed">
+                  <p className="text-white/65 text-lg leading-relaxed">
                     {body}
                   </p>
                 </div>

@@ -46,7 +46,7 @@ export default function Initiative() {
               into structured, productive, and profitable farm enterprises.
             </h2>
 
-            <p className="text-teal-900/75 max-w-lg leading-relaxed text-base">
+            <p className="text-teal-900/75 max-w-lg leading-relaxed text-lg">
               We are building the systems, knowledge, and infrastructure needed to
               transform agriculture into a modern, investable, and scalable sector.
             </p>
@@ -80,7 +80,7 @@ export default function Initiative() {
                       {title}
                     </h3>
 
-                    <p className="text-md text-teal-900/70 leading-relaxed max-w-md">
+                    <p className="text-lg text-teal-900/70 leading-relaxed max-w-md">
                       {body}
                     </p>
                   </div>

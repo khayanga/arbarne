@@ -69,7 +69,7 @@ export default function Pricing() {
               </h2>
             </div>
             <div className="text-right">
-              <p className="text-teal-900/55 text-md text-right max-w-sm">
+              <p className="text-teal-900/55 text-lg md:text-right max-w-sm">
                 Optional add-ons: Advanced AI insights,<br />
                 climate control integration, extra training.
               </p>
@@ -113,7 +113,7 @@ export default function Pricing() {
                     >
                       {name}
                     </h3>
-                    <p className={`text-sm mb-5 ${highlight ? 'text-white/50' : 'text-teal-900/45'}`}>{desc}</p>
+                    <p className={`text-md mb-5 ${highlight ? 'text-white/50' : 'text-teal-900/45'}`}>{desc}</p>
                     <div className="flex items-baseline gap-1">
                       <span
                         className={`font-bold leading-none ${highlight ? 'text-white' : 'text-teal-900'}`}
@@ -137,7 +137,7 @@ export default function Pricing() {
                         }`}>
                           <Check size={10} className={highlight ? 'text-green-400' : 'text-green-600'} strokeWidth={2.5} />
                         </div>
-                        <span className={`text-sm leading-relaxed ${highlight ? 'text-white/60' : 'text-teal-900/60'}`}>
+                        <span className={`text-md leading-relaxed ${highlight ? 'text-white/60' : 'text-teal-900/60'}`}>
                           {f}
                         </span>
                       </li>
@@ -146,7 +146,7 @@ export default function Pricing() {
 
                   <a
                     href="mailto:Shambani@arbarnegroup.com"
-                    className={`group inline-flex items-center justify-center gap-2 w-full py-3.5 rounded-[0.5rem] font-bold text-sm transition-all duration-200 ${
+                    className={`group inline-flex items-center justify-center gap-2 w-full py-3.5 rounded-[0.5rem] font-bold text-md transition-all duration-200 ${
                       highlight
                         ? 'bg-green-500 hover:bg-green-400 text-white'
                         : 'bg-teal-900 hover:bg-teal-800 text-white'
@@ -178,11 +178,11 @@ export default function Pricing() {
               </h2>
             </div>
             <div className="text-right">
-              <p className="text-teal-900/55 text-md max-w-sm text-left lg:text-right">
+              <p className="text-teal-900/55 text-lg max-w-sm text-left lg:text-right">
                 Pricing depends on farm size, crops, and level of tech integration.
               </p>
               <a href="mailto:Shambani@arbarnegroup.com"
-                className="text-sm text-green-600 font-semibold mt-1 inline-block hover:text-green-500 transition-colors">
+                className="text-md text-green-600 font-semibold mt-1 inline-block hover:text-green-500 transition-colors">
                 Contact us for custom pricing →
               </a>
             </div>
@@ -216,7 +216,7 @@ export default function Pricing() {
                 >
                   {name}
                 </h3>
-                <p className={`text-sm leading-relaxed mb-6 ${i === 1 ? 'text-white/50' : 'text-teal-900/50'}`}>
+                <p className={`text-md leading-relaxed mb-6 ${i === 1 ? 'text-white/50' : 'text-teal-900/50'}`}>
                   {desc}
                 </p>
 
@@ -230,14 +230,14 @@ export default function Pricing() {
                       }`}>
                         <Check size={10} className={i === 1 ? 'text-green-400' : 'text-green-600'} strokeWidth={2.5} />
                       </div>
-                      <span className={`text-sm leading-relaxed ${i === 1 ? 'text-white/60' : 'text-teal-900/60'}`}>{f}</span>
+                      <span className={`text-md leading-relaxed ${i === 1 ? 'text-white/60' : 'text-teal-900/60'}`}>{f}</span>
                     </li>
                   ))}
                 </ul>
 
                 <a
                   href="mailto:Shambani@arbarnegroup.com"
-                  className={`group inline-flex items-center rounded-[0.5rem] justify-center gap-2 py-3.5  font-bold text-sm transition-all duration-200 ${
+                  className={`group inline-flex items-center rounded-[0.5rem] justify-center gap-2 py-3.5  font-bold text-md transition-all duration-200 ${
                     i === 1
                       ? 'bg-green-500 hover:bg-green-400 text-white'
                       : 'border border-teal-900/15 text-teal-900 hover:bg-teal-50'

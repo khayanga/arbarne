@@ -92,7 +92,7 @@ export default function CompanyHero() {
                   >
                     {val}
                   </div>
-                  <div className="text-white/55 text-xs mt-0.5">{label}</div>
+                  <div className="text-white/55 text-sm mt-0.5">{label}</div>
                 </div>
               ))}
             </div>
@@ -109,7 +109,7 @@ export default function CompanyHero() {
               driving the transition toward sustainable, structured, and future-ready agricultural
               systems.
             </p>
-            <p className="text-white/45 text-md leading-relaxed">
+            <p className="text-white/45 text-lg leading-relaxed">
               As Arbarne, we design and develop technologies and systems that improve production
               efficiency, increase profitability, and accelerate food systems transformation
               across Africa.

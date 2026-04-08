@@ -61,7 +61,7 @@ export default function CoreValues() {
               <span className="text-green-600 ">everything</span> we build.
             </h2>
 
-            <p className="text-teal-900/75 max-w-lg leading-relaxed text-base">
+            <p className="text-teal-900/75 max-w-lg leading-relaxed text-lg">
                Rooted in community and driven by data, our values ensure every
               innovation serves the person behind the plow and drives lasting
               impact.
