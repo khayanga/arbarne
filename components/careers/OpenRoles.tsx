@@ -95,7 +95,7 @@ export default function OpenRoles() {
                     {/* Meta row */}
                     <div className="flex flex-wrap items-center gap-3 mb-5">
                       <div
-                        className={`flex items-center gap-1.5 px-3 py-1 rounded-full border text-md font-bold uppercase tracking-wider ${
+                        className={`flex items-center gap-1.5 px-3 py-1 rounded-full border text-sm font-bold uppercase tracking-wider ${
                           featured
                             ? 'border-green-400/30 bg-green-500/15 text-green-300'
                             : 'border-green-200 bg-green-50 text-green-700'
@@ -144,7 +144,7 @@ export default function OpenRoles() {
                       {desc}
                     </p>
 
-                    {/* Tags */}
+                    
                     <div className="flex flex-wrap gap-2">
                       {tags.map((tag) => (
                         <span

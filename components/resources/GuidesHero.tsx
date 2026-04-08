@@ -35,13 +35,13 @@ export default function GuidesHero() {
           style={{ fontFamily: 'Georgia, serif' }}
         >
           Guides &amp; Resources for{' '}
-          <span className="text-green-600">Integrating Technology</span>
+          <span className="bg-linear-to-br from-teal-900 via-emerald-500 to-green-400 bg-clip-text text-transparent">Integrating Technology</span>
           <br />
           into your Farm
         </h1>
 
         {/* Subtext */}
-        <p className="text-teal-900/70 text-lg max-w-xl mx-auto leading-relaxed">
+        <p className="text-teal-900/70 text-lg md:text-xl max-w-xl mx-auto leading-relaxed">
           Practical, free guides for African farm managers and owners ready to
           make smarter decisions through digital tools.
         </p>

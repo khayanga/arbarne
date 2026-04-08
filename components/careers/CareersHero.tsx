@@ -7,7 +7,7 @@ export default function CareersHero() {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            'url(https://images.unsplash.com/photo-1589923188900-85dae523342b?w=1800&auto=format&fit=crop&q=80)',
+            'url(https://images.unsplash.com/photo-1668303672808-6e8d7cae3fdc?q=80)',
         }}
       />
       <div className="absolute inset-0 bg-teal-950/60" />

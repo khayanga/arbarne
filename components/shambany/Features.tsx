@@ -32,7 +32,7 @@ export default function Features() {
           {/* ───────────────── CARD 1 ───────────────── */}
           <div 
            style={{borderRadius:"1rem"}}
-          className="lg:col-span-2 group relative rounded-3xl overflow-hidden p-9 flex flex-col justify-between min-h-95 bg-linear-to-br from-teal-900 to-green-900 cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
+          className="lg:col-span-2 group relative rounded-3xl overflow-hidden p-9 flex flex-col justify-between min-h-95 bg-linear-to-br from-teal-950 to-green-900 cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
 
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(74,222,128,0.15),transparent_55%)]" />
             <div className="absolute bottom-6 right-8 text-white/5 text-[10rem] font-bold">01</div>

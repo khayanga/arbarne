@@ -9,7 +9,7 @@ const benefits = [
 
 export default function Benefits() {
   return (
-    <section className="relative bg-teal-900 overflow-hidden">
+    <section className="relative bg-teal-950 overflow-hidden">
       {/* Subtle ambient glows */}
       <div className="absolute top-0 left-0 w-125h-125 pointer-events-none"
         style={{ background: 'radial-gradient(circle at 20% 0%, rgba(74,222,128,0.07) 0%, transparent 60%)' }} />
@@ -29,7 +29,7 @@ export default function Benefits() {
               Farms using Shambany <br/>are getting
             </h2>
           </div>
-          <p className="text-white/60 text-lg leading-relaxed max-w-sm  text-center md:text-right">
+          <p className="text-white/60 text-lg leading-relaxed max-w-sm  md:text-right">
             Every season, farms across Africa are using Shambani to unlock real operational gains 
             not through guesswork, but through data they can see, understand, and act on.
           </p>

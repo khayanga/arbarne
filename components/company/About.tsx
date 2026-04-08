@@ -108,7 +108,7 @@ export default function About() {
         </div>
 
         {/* ── Company Structure ── */}
-        <div className="relative rounded-[1rem] bg-teal-900 overflow-hidden px-10 py-14">
+        <div className="relative rounded-[1rem] bg-teal-950 overflow-hidden px-10 py-14">
           {/* Ambient glows */}
           <div
             className="absolute top-0 right-0 w-80 h-80 pointer-events-none"
@@ -158,7 +158,7 @@ export default function About() {
                   </span>
                 </h2>
               </div>
-              <p className="text-white/55 text-lg leading-relaxed self-center max-w-md text-right">
+              <p className="text-white/55 text-lg leading-relaxed self-center max-w-md md:text-right">
                 Arbarne is a limited liability company (LLC) driving the
                 development of farm technologies and systems. It serves as the
                 core engine behind both technology development and the Future

@@ -114,7 +114,7 @@ export default function Story() {
               </p>
 
               {/* Highlight card */}
-              <div className="mt-10 p-6 rounded-[1rem] bg-teal-900 text-white">
+              <div className="mt-10 p-6 rounded-[1rem] bg-teal-950 text-white">
                 <p
                   className="text-xl font-bold leading-snug"
                   style={{ fontFamily: 'Georgia, serif' }}

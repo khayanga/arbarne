@@ -35,7 +35,7 @@ const footerLinks = {
 
 export default function Footer() {
   return (
-    <footer className="bg-teal-900 text-white">
+    <footer className="bg-teal-950 text-white">
       
       {/* CTA */}
       <div className="border-b border-white/10">

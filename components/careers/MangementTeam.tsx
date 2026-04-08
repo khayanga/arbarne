@@ -1,5 +1,4 @@
-
-
+import { FaLinkedin } from 'react-icons/fa'
 import { Crown, Settings, Cpu, Leaf, Shield } from 'lucide-react'
 
 const management = [
@@ -11,6 +10,7 @@ const management = [
     icon: Crown,
     featured: true,
     accentColor: '#4ade80',
+    linkedin: 'https://www.linkedin.com/in/alice-ayuma/',
   },
   {
     name: 'Mariam Kagbo Dora',
@@ -19,6 +19,7 @@ const management = [
     image: '/mariam.jpg',
     icon: Settings,
     accentColor: '#2dd4bf',
+    linkedin: 'https://www.linkedin.com/in/mariam-kagbo/',
   },
   {
     name: 'Alex Mogengo',
@@ -27,6 +28,7 @@ const management = [
     image: '/alex.jpg',
     icon: Cpu,
     accentColor: '#4ade80',
+    linkedin: 'https://www.linkedin.com/in/alex-mogengo/',
   },
   {
     name: 'Derrick Mboya',
@@ -35,6 +37,7 @@ const management = [
     image: '/derrick.jpg',
     icon: Leaf,
     accentColor: '#86efac',
+    linkedin: 'https://www.linkedin.com/in/derrick-mboya/',
   },
   {
     name: 'Kevin Okwako',
@@ -43,9 +46,9 @@ const management = [
     image: '/kevin.jpg',
     icon: Shield,
     accentColor: '#5eead4',
+    linkedin: 'https://www.linkedin.com/in/kevin-okwako/',
   },
 ]
-
 
 
 export default function ManagementTeam() {
@@ -73,7 +76,7 @@ export default function ManagementTeam() {
             </h2>
           </div>
 
-          <p className="text-teal-900/65 text-md leading-relaxed max-w-xs md:text-right">
+          <p className="text-teal-900/65 text-md md:text-lg leading-relaxed max-w-xs md:text-right">
             A cross-functional leadership team combining agronomy expertise,
             technology, and operational excellence.
           </p>
@@ -84,21 +87,19 @@ export default function ManagementTeam() {
           <div className="flex flex-col md:flex-row items-stretch">
 
             {/* Image Side */}
-            <div className="md:w-2/5 relative min-h-100 overflow-hidden">
+            <div className="md:w-2/5 relative h-105 md:h-auto overflow-hidden">
               <img
                 src={founder.image}
                 alt={founder.name}
-
-                className="absolute inset-0 w-full h-full object-cover object-top scale-105"
+                className="w-full h-full object-cover object-center"
               />
 
-
+              
               <div className="absolute inset-0 bg-linear-to-t md:bg-linear-to-r from-teal-950/40 via-transparent to-transparent" />
 
-              {/* Optional: Subtle inner border to frame the photo */}
+              
               <div className="absolute inset-0 border-r border-white/5 hidden md:block" />
             </div>
-
             {/* Content Side */}
             <div className="md:w-3/5 p-8 md:p-12 flex flex-col justify-center relative">
               {/* Background Accents */}
@@ -114,10 +115,19 @@ export default function ManagementTeam() {
                   {founder.name}
                 </h3>
 
-                <p className="text-green-400 font-medium text-lg mb-6">
+                <p className="text-green-400 font-medium text-lg mb-4">
                   {founder.role}
                 </p>
 
+                <a
+                  href={founder.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-white/80 hover:text-white transition mb-6"
+                >
+                  <FaLinkedin className="w-5 h-5" />
+                  <span className="text-md">View LinkedIn</span>
+                </a>
                 {/* Bio with a cleaner quote style */}
                 <div className="relative">
                   <span className="absolute -top-4 -left-2 text-6xl text-white/5 serif">“</span>
@@ -132,18 +142,31 @@ export default function ManagementTeam() {
 
         {/* 👥 THE REST OF THE TEAM - Balanced Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {rest.map(({ name, role, bio, image }) => (
+          {rest.map(({ name, role, bio, image, linkedin }) => (
             <div
               key={name}
               className="group bg-gray-50 rounded-[1rem] overflow-hidden hover:bg-white hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-transparent hover:border-teal-100"
             >
               {/* Square Image aspect-square is great for grids */}
-              <div className="aspect-4/5 overflow-hidden">
+              <div className="aspect-4/5 overflow-hidden relative">
                 <img
                   src={image}
                   alt={name}
                   className="w-full h-full object-cover transition-all duration-500 scale-105 group-hover:scale-100"
                 />
+
+                {/* Overlay */}
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-300" />
+
+                {/* LinkedIn */}
+                <a
+                  href={linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute bottom-4 right-4 bg-white/90 backdrop-blur-md p-2 rounded-full shadow-md opacity-0 group-hover:opacity-100 transition duration-300 hover:scale-110"
+                >
+                  <FaLinkedin className="w-4 h-4 text-teal-900" />
+                </a>
               </div>
 
               <div className="p-6">

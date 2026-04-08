@@ -77,7 +77,7 @@ export default function Navbar() {
               alt="Logo"
               width={200}
               height={200}
-              className={` w-auto object-contain transition-opacity duration-300 ${
+              className={` object-contain transition-opacity duration-300 ${
                 useDarkText ? 'opacity-100' : 'opacity-0 absolute'
               }`}
               priority
@@ -85,11 +85,11 @@ export default function Navbar() {
 
             {/* Light logo (for dark backgrounds) */}
             <Image
-              src="/logo-light.png"
+              src="/nav-white.png"
               alt="Logo"
-              width={200}
-              height={200}
-              className={` w-auto object-contain transition-opacity duration-300 ${
+              width={180}
+              height={180}
+              className={` object-contain transition-opacity duration-300 ${
                 useDarkText ? 'opacity-0 absolute' : 'opacity-100'
               }`}
               priority
@@ -127,7 +127,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <Link
-          href="/#shambany"
+          href="/#contact"
           className="hidden md:block px-6 py-3 bg-green-500 text-white text-sm font-semibold rounded-[0.5rem] hover:bg-green-400 transition"
         >
           Get Started

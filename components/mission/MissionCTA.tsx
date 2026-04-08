@@ -65,12 +65,7 @@ export default function MissionCTA() {
               From traditional systems to{' '}
               <span
                 
-                style={{
-                  background: 'linear-gradient(90deg, #4ade80 0%, #2dd4bf 100%)',
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
-                  backgroundClip: 'text',
-                }}
+                className="block pb-2 bg-linear-to-br from-teal-900 via-emerald-500 to-green-400 bg-clip-text text-transparent tracking-tight"
               >
                 future-ready farms.
               </span>

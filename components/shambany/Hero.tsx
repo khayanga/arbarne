@@ -52,17 +52,9 @@ export default function Hero() {
               }}
             >
               Karibu,{" "}
-              <span
-                className="block pb-2"
-                style={{
-                  background:
-                    "linear-gradient(90deg, #4ade80 0%, #2dd4bf 100%)",
-                  WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent",
-                }}
-              >
-                Shambany.
-              </span>
+             <span className="block pb-2 bg-linear-to-br from-teal-900 via-emerald-500 to-green-400 bg-clip-text text-transparent tracking-tight">
+            Shambany.
+          </span>
             </h1>
 
             {/* Stat chips */}
@@ -78,24 +70,21 @@ export default function Hero() {
                 >
                   <div
                     className="text-white font-bold text-base"
-                    style={{ fontFamily: "Georgia, serif" }}
+                    style={{ fontFamily: "Georgia" }}
                   >
                     {val}
                   </div>
-                  <div className="text-white/55 text-xs mt-0.5">{label}</div>
+                  <div className="text-white/55 text-sm mt-0.5">{label}</div>
                 </div>
               ))}
             </div>
           </div>
 
           {/* Right: brand statement */}
-          <div className="border-l border-white/10 pl-10">
+          <div className="border-l border-white/10 pl-10 text-md md:text-xl">
             <p
-              className="text-white/80 leading-relaxed"
-              style={{
-                fontFamily: "Georgia, serif",
-                fontSize: "clamp(1rem, 1.4vw, 1.15rem)",
-              }}
+              className="text-white/80  leading-relaxed"
+             
             >
               We are building the next generation of African agriculture where
               every farm operates with clarity, precision, and purpose.

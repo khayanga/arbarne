@@ -40,7 +40,7 @@ export default function GuideCard({
       </div>
 
       {/* Category label */}
-      <p className="text-xs font-semibold uppercase tracking-widest text-green-600 mb-2">
+      <p className="text-sm font-semibold uppercase tracking-widest text-green-600 mb-2">
         {category}
       </p>
 
@@ -53,13 +53,13 @@ export default function GuideCard({
       </h3>
 
       {/* Description */}
-      <p className="text-md text-teal-900/55 leading-relaxed flex-1 mb-6">
+      <p className="text-md md:text-lg text-teal-900/55 leading-relaxed flex-1 mb-6">
         {description}
       </p>
 
       {/* Footer */}
       <div className="flex items-center justify-between pt-5 border-t border-gray-100">
-        <div className="flex items-center gap-1.5 text-sm text-teal-900/35">
+        <div className="flex items-center gap-1.5 text-md text-teal-900/35">
           <Clock size={12} />
           {readTime}
         </div>

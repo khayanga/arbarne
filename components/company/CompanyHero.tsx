@@ -63,13 +63,7 @@ export default function CompanyHero() {
             >
               Our Farms,{' '}
               <span
-                className="block"
-                style={{
-                  background: 'linear-gradient(90deg, #4ade80 0%, #2dd4bf 100%)',
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
-                  backgroundClip: 'text',
-                }}
+               className="block pb-2 bg-linear-to-br from-teal-900 via-emerald-500 to-green-400 bg-clip-text text-transparent tracking-tight"
               >
                 Our Future.
               </span>
@@ -99,10 +93,10 @@ export default function CompanyHero() {
           </div>
 
           {/* Right: brand statement */}
-          <div className="border-l border-white/10 pl-10">
+          <div className="border-l border-white/10 pl-10 text-md md:text-lg">
             <p
               className="text-white/75 leading-relaxed mb-6"
-              style={{ fontFamily: 'Georgia, serif', fontSize: 'clamp(1rem, 1.6vw, 1.2rem)' }}
+              
             >
               We are the brand behind{' '}
               <em className="text-green-400 font-bold">"Our Farms, Our Future,"</em>{' '}

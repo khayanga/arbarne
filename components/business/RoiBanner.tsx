@@ -1,6 +1,6 @@
 export default function ROIBanner() {
   return (
-    <section className="relative overflow-hidden bg-teal-900 py-20">
+    <section className="relative overflow-hidden bg-teal-950 py-20">
       {/* Ambient glows */}
       <div className="absolute top-0 left-0 w-125 h-100 pointer-events-none"
         style={{ background: 'radial-gradient(circle at 10% 0%, rgba(74,222,128,0.08) 0%, transparent 60%)' }} />

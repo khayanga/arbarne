@@ -61,14 +61,9 @@ export default function MissionHero() {
             >
               Transforming African agriculture
               <span
-                className="block mt-2"
-                style={{
-                  background:
-                    'linear-gradient(90deg, #4ade80 0%, #34d399 50%, #2dd4bf 100%)',
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
-                }}
-              >
+                
+                className="block pb-2 bg-linear-to-br from-teal-900 via-emerald-500 to-green-400 bg-clip-text text-transparent tracking-tight">
+              
                 into productive systems.
               </span>
             </h1>
@@ -105,14 +100,11 @@ export default function MissionHero() {
           </div>
 
           {/* RIGHT — Narrative */}
-          <div className="border-l border-white/10 pl-10 space-y-6">
+          <div className="border-l border-white/10 pl-10 space-y-6 md:text-lg text-md">
 
             <p
               className="text-white/80 leading-relaxed"
-              style={{
-                fontFamily: 'Georgia, serif',
-                fontSize: 'clamp(1rem, 1.4vw, 1.15rem)',
-              }}
+             
             >
               Agriculture in Africa stands at a critical turning point. Feeding a
               growing population requires more than effort it demands intelligent
