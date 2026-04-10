@@ -42,7 +42,7 @@ export default function Navbar() {
 
   const navLinks = [
     { href: '/', label: 'Shambany' },
-    { href: '/business', label: 'Business' },
+    { href: '/pricing', label: 'Pricing' },
     { href: '/mission', label: 'Mission' },
     { href: '/company', label: 'Company' },
     { href: '/careers', label: 'Careers' },
