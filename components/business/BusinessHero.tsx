@@ -61,7 +61,7 @@ export default function BusinessHero() {
               },
               {
                 label: "For Farm Owners",
-                desc: "Hire professional farm managers powered by Shambani to run your farm with precision and transparency.",
+                desc: "Hire professional farm managers powered by Shambany to run your farm with precision and transparency.",
               },
             ].map(({ label, desc }, i) => (
               <div
