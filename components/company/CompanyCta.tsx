@@ -80,7 +80,7 @@ export default function CompanyCTA() {
           <div className="flex flex-col gap-4">
             {[
               {
-                label: 'Explore Shambani',
+                label: 'Explore Shambany',
                 desc: 'See the farm intelligence platform powering our work.',
                 href: '/',
                 dark: true,
@@ -88,7 +88,7 @@ export default function CompanyCTA() {
               {
                 label: 'Business Solutions',
                 desc: 'Farm technology plans and professional management services.',
-                href: '/business',
+                href: '/pricing',
                 dark: false,
               },
               {

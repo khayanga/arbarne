@@ -72,7 +72,7 @@ export default function MissionCTA() {
             </h2>
 
             <p className="text-white/65 text-lg leading-relaxed max-w-lg">
-              Our mission is not just a statement it's the work we do every day through Shambani,
+              Our mission is not just a statement it's the work we do every day through Shambany,
               the Future Farms Initiative, and our team on the ground across Africa.
             </p>
           </div>
@@ -89,7 +89,7 @@ export default function MissionCTA() {
               {
                 label: 'Business Solutions',
                 desc: 'Technology and services for farm managers and owners.',
-                href: '/business',
+                href: '/pricing',
                 primary: false,
               },
               {
