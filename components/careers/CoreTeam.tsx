@@ -104,12 +104,12 @@ export default function CoreTeam() {
                 {/* Content */}
                 <div className="p-6">
                   <div className="flex items-center gap-3 mb-3">
-                    <div
+                    {/* <div
                       className="w-9 h-9 rounded-[2rem] flex items-center justify-center"
                       style={{ background: `${color}15` }}
                     >
                       <Icon size={16} style={{ color }} />
-                    </div>
+                    </div> */}
 
                     <h4
                       className="text-teal-950 font-bold text-lg mb-1"

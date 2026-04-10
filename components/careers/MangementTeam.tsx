@@ -23,7 +23,7 @@ const management = [
   },
   {
     name: 'Alex Mogengo',
-    role: 'Int. Chief on Technology & Innovation',
+    role: 'Int. Chief of Technology & Innovation',
     bio: 'Drives the development of digital systems powering data-driven agriculture.',
     image: '/alex.jpg',
     icon: Cpu,
