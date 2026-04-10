@@ -34,7 +34,7 @@ export default function MissionHero() {
       />
 
       {/* Content */}
-      <div className="relative z-10 md:mt-22 max-w-7xl mx-auto w-full px-6 pb-12 pt-28">
+      <div className="relative z-10 md:mt-22 max-w-7xl mx-auto w-full px-6 pb-12 pt-32">
 
         {/* Eyebrow */}
         <div className="flex items-center gap-3 mb-12">

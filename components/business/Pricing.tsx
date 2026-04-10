@@ -81,9 +81,9 @@ export default function Pricing() {
                 Optional add-ons: Advanced AI insights,<br />
                 climate control integration, extra training.
               </p>
-              <a href="mailto:Shambani@arbarnegroup.com"
+              <a href="mailto:Shambany@arbarnegroup.com"
                 className="text-sm text-green-600 font-semibold mt-1 inline-block hover:text-green-500 transition-colors">
-                Shambani@arbarnegroup.com →
+                Shambany@arbarnegroup.com →
               </a>
             </div>
           </div>
@@ -193,7 +193,7 @@ export default function Pricing() {
               <p className="text-teal-900/55 text-lg max-w-sm text-left lg:text-right">
                 Pricing depends on farm size, crops, and level of tech integration.
               </p>
-              <a href="mailto:Shambani@arbarnegroup.com"
+              <a href="mailto:Shambany@arbarnegroup.com"
                 className="text-md text-green-600 font-semibold mt-1 inline-block hover:text-green-500 transition-colors">
                 Contact us for custom pricing →
               </a>
@@ -250,7 +250,7 @@ export default function Pricing() {
             9,999
           </span>
           <span className="ml-3 text-lg font-medium text-slate-300">
-            / ha / month
+            / ac / month
           </span>
         </div>
 

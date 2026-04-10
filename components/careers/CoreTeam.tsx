@@ -24,7 +24,7 @@ const team = [
   },
   {
     name: "Anthony Wanjiru",
-    role: "County Liaison Officer",
+    role: "County Liaison Officer (Kiambu)",
     dept: "Kiambu County",
     bio: "Coordinates county-level engagement and farmer network expansion.",
     image: "/antony.jpg",
