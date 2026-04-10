@@ -59,20 +59,16 @@ export default function MissionHero() {
                 fontSize: 'clamp(2.5rem, 6vw, 5rem)',
               }}
             >
-              Transforming African agriculture
+              Transforming 
               <span
                 
                 className="block pb-2 bg-linear-to-br from-teal-900 via-emerald-500 to-green-400 bg-clip-text text-transparent tracking-tight">
               
-                into productive systems.
+                African agriculture
               </span>
             </h1>
 
-            {/* <p className="text-white/75 text-lg max-w-xl leading-relaxed mb-10">
-              We are driving the transition from traditional, inefficient farming
-              practices toward structured, intelligent, and profitable agricultural
-              systems across Africa.
-            </p> */}
+            
 
             {/* Pillars */}
             <div className="flex flex-wrap gap-3">
@@ -113,9 +109,9 @@ export default function MissionHero() {
 
             
 
-            <p className="text-green-400 font-semibold tracking-wide">
+            {/* <p className="text-green-400 font-semibold tracking-wide">
               This is the great transition of African agriculture.
-            </p>
+            </p> */}
 
           </div>
         </div>

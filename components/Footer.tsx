@@ -92,7 +92,7 @@ export default function Footer() {
               <MapPin size={14} /> Nairobi, Kenya
             </span>
             <span className="flex items-center gap-2">
-              <Mail size={14} /> arbarnegroup@gmail.com
+              <Mail size={14} /> Info@arbarnegroup.com
             </span>
             <span className="flex items-center gap-2">
               <Phone size={14} /> +254 757 721 222

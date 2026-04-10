@@ -110,7 +110,7 @@ export default function CompanyCTA() {
                 <div>
                   <div
                     className={`font-bold  text-xl mb-0.5 ${dark ? 'text-white' : 'text-white'}`}
-                    style={{ fontFamily: 'Georgia, serif' }}
+                    style={{ fontFamily: 'Georgia' }}
                   >
                     {label}
                   </div>
