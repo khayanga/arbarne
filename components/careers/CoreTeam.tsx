@@ -4,13 +4,22 @@ import { FaLinkedin } from "react-icons/fa";
 const team = [
   {
     name: "Virgil Khayanga",
-    role: "Head of Technology",
+    role: "Head of Technology & Digital Transformation",
     dept: "Shambani",
     bio: "Leads product strategy and development for digital farm monitoring solutions.",
     image: "/virgil.jpg",
     icon: Package,
     color: "#4ade80",
     linkedin: "https://www.linkedin.com/in/virgil-khayanga-113b18262/",
+  },
+  {
+    name:"Lydia Kiswii",
+    role:"Head of Programs",
+    bio:"Leads the delivery of transformative programs empowering farmers with technology and expertise.",
+    image:"/lydia.jpg",
+    icon: Package,
+    color: "#4ade80",
+    linkedin:"https://www.linkedin.com/in/lydhia-kiswii-msc-613b29131/"
   },
   {
     name: "Beryl Awuor",
@@ -66,7 +75,7 @@ export default function CoreTeam() {
         </div>
 
         {/* Cards */}
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-4 gap-6">
           {team.map(
             ({ name, role, dept, bio, image, icon: Icon, color, linkedin }) => (
               <div
@@ -104,7 +113,7 @@ export default function CoreTeam() {
 
                     <h4
                       className="text-teal-950 font-bold text-lg mb-1"
-                      style={{ fontFamily: "Georgia, serif" }}
+                      style={{ fontFamily: "Georgia" }}
                     >
                       {name}
                     </h4>

@@ -3,7 +3,7 @@ import { Crown, Settings, Cpu, Leaf, Shield } from 'lucide-react'
 
 const management = [
   {
-    name: 'Amutabi Ayuma',
+    name: 'Amutabi Ayuma Alice',
     role: 'Founder & CEO',
     bio: 'Leads the vision of transforming African agriculture into structured, investment-ready enterprises.',
     image: '/alice.jpg',
@@ -28,7 +28,7 @@ const management = [
     image: '/alex.jpg',
     icon: Cpu,
     accentColor: '#4ade80',
-    linkedin: 'https://www.linkedin.com/in/alex-mogengo/',
+    linkedin: 'https://www.linkedin.com/in/alex-mogengo-19107994/',
   },
   {
     name: 'Derrick Mboya',
@@ -37,7 +37,7 @@ const management = [
     image: '/derrick.jpg',
     icon: Leaf,
     accentColor: '#86efac',
-    linkedin: 'https://www.linkedin.com/in/derrick-mboya/',
+    linkedin: 'https://ke.linkedin.com/in/derrick-mboya-57b430176',
   },
   
 ]
@@ -106,7 +106,7 @@ export default function ManagementTeam() {
               </div>
 
               <div className="p-6">
-                <h4 className="text-teal-950 font-bold text-lg mb-1" style={{ fontFamily: 'Georgia, serif' }}>
+                <h4 className="text-teal-950 font-bold text-lg mb-1" style={{ fontFamily: 'Georgia' }}>
                   {name}
                 </h4>
                 <p className="text-green-600 text-sm font-semibold mb-3 uppercase tracking-tighter">
