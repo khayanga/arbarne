@@ -71,7 +71,7 @@ export default function GetStarted() {
               fontSize: "clamp(1.5rem, 3vw, 2.4rem)",
             }}
           >
-            At Shambani, we empower farm managers and farm owners with{" "}
+            At Shambany, we empower farm managers and farm owners with{" "}
             <span className="text-green-400 ">smart technology</span> and
             professional services to make every farm operation{" "}
             <span className="block pb-2 bg-linear-to-br from-teal-900 via-emerald-500 to-green-400 bg-clip-text text-transparent tracking-tight">
@@ -106,7 +106,7 @@ export default function GetStarted() {
 
               <p className="text-teal-900/65 text-lg leading-relaxed mb-10">
                 Submit an inquiry and our team will get back to you within 24
-                hours to discuss how Shambani can work for your specific farm.
+                hours to discuss how Shambany can work for your specific farm.
               </p>
 
               <div className="space-y-4">
