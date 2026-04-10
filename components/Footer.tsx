@@ -5,7 +5,7 @@ import Image from 'next/image'
 const footerLinks = {
   Product: [
     { label: 'Shambany Platform', href: '/' },
-    { label: 'Business Model', href: '/business' },
+    { label: 'Business Model', href: '/pricing' },
     { label: 'Pricing', href: '/business#pricing' },
     { label: 'Resources', href: '/resources' },
   ],
