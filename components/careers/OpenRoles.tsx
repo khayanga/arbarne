@@ -7,7 +7,7 @@ const roles = [
     type: 'Full-time',
     location: 'Kenya',
     dept: 'Sales & Growth',
-    desc: 'Drive Shambani adoption by engaging farm managers and farm owners across Kenya. You will demo the platform, onboard new clients, and build lasting relationships that grow the Arbarne ecosystem.',
+    desc: 'Drive Shambany adoption by engaging farm managers and farm owners across Kenya. You will demo the platform, onboard new clients, and build lasting relationships that grow the Arbarne ecosystem.',
     tags: ['Sales', 'AgriTech', 'Client Relations', 'Field-based'],
     applyLink: 'mailto:careers@arbarnegroup.com?subject=Application: Digital Sales Agent',
     featured: true,

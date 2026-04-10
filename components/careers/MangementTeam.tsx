@@ -19,11 +19,11 @@ const management = [
     image: '/mariam.jpg',
     icon: Settings,
     accentColor: '#2dd4bf',
-    linkedin: 'https://www.linkedin.com/in/mariam-kagbo/',
+    linkedin: 'https://sl.linkedin.com/in/dora-mariam-kargbo-9ab189258',
   },
   {
     name: 'Alex Mogengo',
-    role: 'Chief on Technology & Innovation ',
+    role: 'Int. Chief on Technology & Innovation',
     bio: 'Drives the development of digital systems powering data-driven agriculture.',
     image: '/alex.jpg',
     icon: Cpu,
@@ -32,7 +32,7 @@ const management = [
   },
   {
     name: 'Derrick Mboya',
-    role: 'Chief Agronomy Officer',
+    role: 'Int. Chief Agronomy Officer',
     bio: 'Provides agronomic expertise to optimize farm productivity and sustainability.',
     image: '/derrick.jpg',
     icon: Leaf,
