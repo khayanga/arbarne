@@ -30,7 +30,7 @@ export default function Benefits() {
             </h2>
           </div>
           <p className="text-white/60 text-lg leading-relaxed max-w-sm  md:text-right">
-            Every season, farms across Africa are using Shambani to unlock real operational gains 
+            Every season, farms across Africa are using Shambany to unlock real operational gains 
             not through guesswork, but through data they can see, understand, and act on.
           </p>
         </div>
