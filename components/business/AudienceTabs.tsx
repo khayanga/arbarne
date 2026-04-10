@@ -50,7 +50,7 @@ const tabs = {
       heading: "Remote Farm Management Services (for Clients)",
       points: [
         "Full-service farm management — planning → execution → monitoring",
-        "Expert farm managers using Shambani tech to maximize results",
+        "Expert farm managers using Shambany tech to maximize results",
         "Data-driven reporting for transparency and performance",
         "Scalable, professional operations for any farm size",
       ],
@@ -70,7 +70,7 @@ const tabs = {
       {
         icon: Users,
         title: "Hire farm management services",
-        body: "Professional agronomists and management teams run your farm using Shambani technology.",
+        body: "Professional agronomists and management teams run your farm using Shambany technology.",
       },
       {
         icon: ShieldCheck,
@@ -93,7 +93,7 @@ const tabs = {
       points: [
         "Dedicated farm manager assigned to your property",
         "Weekly performance and activity reports",
-        "Real-time monitoring via Shambani dashboard access",
+        "Real-time monitoring via Shambany dashboard access",
         "Year-round planning, execution, and post-season analysis",
       ],
     },
@@ -119,7 +119,7 @@ export default function AudienceTabs() {
             <h2
               className="font-bold text-teal-900 leading-tight"
               style={{
-                fontFamily: "Georgia, serif",
+                fontFamily: "Georgia",
                 fontSize: "clamp(1.8rem, 3.5vw, 2.8rem)",
               }}
             >

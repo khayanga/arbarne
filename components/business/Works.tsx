@@ -4,9 +4,9 @@ import { ShoppingCart, Cpu, Settings, BarChart3, Users, Zap, FileText, TrendingU
 const tracks = [
   {
     audience: 'For Farm Managers',
-    sub: 'Get Shambani',
+    sub: 'Get Shambany',
     steps: [
-      { icon: ShoppingCart, title: 'Purchase or Subscribe', body: 'Choose the Shambani plan that fits your farm management practice — Starter, Professional, or Enterprise.' },
+      { icon: ShoppingCart, title: 'Purchase or Subscribe', body: 'Choose the Shambany plan that fits your farm management practice — Starter, Professional, or Enterprise.' },
       { icon: Cpu, title: 'Digitize Operations', body: 'Set up your farms, onboard staff, and configure dashboards and sensors with our guided setup.' },
       { icon: Settings, title: 'Manage Farms Efficiently', body: 'Run operations, track inputs, manage teams, and monitor farm health all from one platform.' },
       { icon: BarChart3, title: 'Generate Insights & Reports', body: 'Deliver professional, data-driven performance reports to your farm owner clients.' },
@@ -14,10 +14,10 @@ const tracks = [
   },
   {
     audience: 'For Farm Owners',
-    sub: 'Hire Shambani',
+    sub: 'Hire Shambany',
     steps: [
-      { icon: Users, title: 'Hire Shambani', body: 'Select a remote farm management package and we assign an expert farm manager to your property.' },
-      { icon: Zap, title: 'Expert Execution', body: 'Your manager handles planning, execution, and day-to-day operations powered by Shambani technology.' },
+      { icon: Users, title: 'Hire Shambany', body: 'Select a remote farm management package and we assign an expert farm manager to your property.' },
+      { icon: Zap, title: 'Expert Execution', body: 'Your manager handles planning, execution, and day-to-day operations powered by Shambany technology.' },
       { icon: FileText, title: 'Track Performance', body: 'Receive regular reports with clear data on yields, expenses, activities, and outcomes.' },
       { icon: TrendingUp, title: 'Improve Yields & Profitability', body: 'Benefit from data-informed decisions that increase yields and reduce operational costs season after season.' },
     ],
@@ -40,7 +40,7 @@ export default function Works() {
           </div>
           <h2
             className="font-bold text-teal-900 leading-tight"
-            style={{ fontFamily: 'Georgia, serif', fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)' }}
+            style={{ fontFamily: 'Georgia', fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)' }}
           >
             Your path to a smarter farm.
           </h2>
@@ -68,7 +68,7 @@ export default function Works() {
 
                 <h3
                   className="text-white font-bold text-xl"
-                  style={{ fontFamily: 'Georgia, serif' }}
+                  style={{ fontFamily: 'Georgia' }}
                 >
                   {audience}
                 </h3>
@@ -99,7 +99,7 @@ export default function Works() {
 
                         <h4
                           className="text-white font-bold text-lg"
-                          style={{ fontFamily: 'Georgia, serif' }}
+                          style={{ fontFamily: 'Georgia' }}
                         >
                           {title}
                         </h4>

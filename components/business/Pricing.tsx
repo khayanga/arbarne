@@ -39,7 +39,7 @@ const servicePackages = [
   {
     name: 'Advanced',
     desc: 'Technology monitoring + detailed analytics',
-    features: ['Everything in Basic', 'Shambani tech integration', 'Real-time monitoring dashboards', 'Bi-weekly detailed analytics', 'Pest & disease alerts'],
+    features: ['Everything in Basic', 'Shambany tech integration', 'Real-time monitoring dashboards', 'Bi-weekly detailed analytics', 'Pest & disease alerts'],
   },
   {
     name: 'Premium',
@@ -71,7 +71,7 @@ export default function Pricing() {
               </div>
               <h2
                 className="font-bold text-teal-900 leading-tight"
-                style={{ fontFamily: 'Georgia, serif', fontSize: 'clamp(1.8rem, 3.5vw, 2.6rem)' }}
+                style={{ fontFamily: 'Georgia', fontSize: 'clamp(1.8rem, 3.5vw, 2.6rem)' }}
               >
                 Farm Management Technology
               </h2>
@@ -117,7 +117,7 @@ export default function Pricing() {
                   <div className="mb-6">
                     <h3
                       className={`font-bold text-xl mb-1 ${highlight ? 'text-white' : 'text-teal-900'}`}
-                      style={{ fontFamily: 'Georgia, serif' }}
+                      style={{ fontFamily: 'Georgia' }}
                     >
                       {name}
                     </h3>
@@ -125,7 +125,7 @@ export default function Pricing() {
                     <div className="flex items-baseline gap-1">
                       <span
                         className={`font-bold leading-none ${highlight ? 'text-white' : 'text-teal-900'}`}
-                        style={{ fontFamily: 'Georgia, serif', fontSize: price === 'Custom' ? '2rem' : '2.2rem' }}
+                        style={{ fontFamily: 'Georgia', fontSize: price === 'Custom' ? '2rem' : '2.2rem' }}
                       >
                         {price}
                       </span>
@@ -159,7 +159,7 @@ export default function Pricing() {
                         ? 'bg-green-500 hover:bg-green-400 text-white'
                         : 'bg-teal-900 hover:bg-teal-800 text-white'
                     }`}
-                    style={{ fontFamily: 'Georgia, serif' }}
+                    style={{ fontFamily: 'Georgia' }}
                   >
                     {cta}
                     <ArrowRight size={15} className="group-hover:translate-x-0.5 transition-transform duration-200" />
@@ -184,7 +184,7 @@ export default function Pricing() {
               </div>
               <h2
                 className="font-bold text-teal-900 leading-tight"
-                style={{ fontFamily: 'Georgia, serif', fontSize: 'clamp(1.8rem, 3.5vw, 2.6rem)' }}
+                style={{ fontFamily: 'Georgia', fontSize: 'clamp(1.8rem, 3.5vw, 2.6rem)' }}
               >
                 Remote Farm <br/>Management Services
               </h2>
@@ -246,7 +246,7 @@ export default function Pricing() {
       {/* Price */}
       <div className="mb-10 pb-10 border-b border-green-500/50">
         <div className="flex items-baseline text-white">
-          <span style={{ fontFamily: 'Georgia, serif', fontSize: '4.5rem' }}>
+          <span style={{ fontFamily: 'Georgia', fontSize: '4.5rem' }}>
             9,999
           </span>
           <span className="ml-3 text-lg font-medium text-slate-300">

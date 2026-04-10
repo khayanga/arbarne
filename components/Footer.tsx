@@ -6,7 +6,7 @@ const footerLinks = {
   Product: [
     { label: 'Shambany Platform', href: '/' },
     { label: 'Business Model', href: '/pricing' },
-    { label: 'Pricing', href: '/business#pricing' },
+    { label: 'Pricing', href: '/pricing#pricing' },
     { label: 'Resources', href: '/resources' },
   ],
   Company: [
@@ -51,14 +51,14 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-3">
-            <Link
+            {/* <Link
               href="/shambani"
               className="px-6 py-3 bg-green-500 font-semibold text-sm rounded-[0.5rem] hover:bg-green-400 transition"
             >
               Get Started
-            </Link>
+            </Link> */}
             <Link
-              href="/business"
+              href="/#contact"
               className="px-6 py-3 border border-white/20 text-sm rounded-[0.5rem] hover:bg-white/10 transition"
             >
               Request Demo
