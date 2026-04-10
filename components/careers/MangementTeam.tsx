@@ -61,7 +61,7 @@ export default function ManagementTeam() {
 
             <h2
               className="font-bold text-teal-900 leading-tight"
-              style={{ fontFamily: 'Georgia, serif', fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)' }}
+              style={{ fontFamily: 'Georgia', fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)' }}
             >
               The team building Africa's<br />
               <span className="text-green-600 ">agricultural future.</span>
@@ -109,7 +109,7 @@ export default function ManagementTeam() {
                 <h4 className="text-teal-950 font-bold text-lg mb-1" style={{ fontFamily: 'Georgia' }}>
                   {name}
                 </h4>
-                <p className="text-green-600 text-sm font-semibold mb-3 uppercase tracking-tighter">
+                <p className="text-green-600 text-sm font-semibold mb-3 uppercase tracking-tighter" style={{ fontFamily: 'Georgia' }}>
                   {role}
                 </p>
                 <p className="text-teal-900/60 text-md leading-relaxed line-clamp-3">

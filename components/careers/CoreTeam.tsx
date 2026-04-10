@@ -39,7 +39,7 @@ const team = [
     image: "/antony.jpg",
     icon: MapPin,
     color: "#86efac",
-    linkedin: "https://www.linkedin.com/in/anthony-wanjiru/",
+    linkedin: "https://ke.linkedin.com/in/anthony-wanjiru-708b625b",
   },
 ];
 
@@ -119,7 +119,7 @@ export default function CoreTeam() {
                     </h4>
                   </div>
 
-                  <p className="text-green-600 text-sm font-semibold mb-3 uppercase tracking-tighter">
+                  <p className="text-green-600 text-sm font-semibold mb-3 uppercase tracking-tighter" style={{ fontFamily: 'Georgia' }}>
                     {role}
                   </p>
                   <p className="text-teal-900/60 text-md leading-relaxed line-clamp-3">
