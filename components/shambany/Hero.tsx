@@ -98,7 +98,7 @@ export default function Hero() {
             </p>
 
             <p className="text-green-400 font-semibold tracking-wide mt-1">
-              This is the great transition a shift toward future-ready farms.
+              This is the great transition, a shift toward future-ready farms.
             </p>
           </div>
         </div>
