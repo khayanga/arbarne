@@ -81,7 +81,7 @@ export default function MissionCTA() {
           <div className="flex flex-col gap-3">
             {[
               {
-                label: 'Explore Shambani',
+                label: 'Explore Shambany',
                 desc: 'The technology platform driving our mission forward.',
                 href: '/',
                 primary: true,
@@ -117,7 +117,7 @@ export default function MissionCTA() {
                 <div>
                   <div
                     className="font-bold text-lg text-white mb-0.5"
-                    style={{ fontFamily: 'Georgia, serif' }}
+                    style={{ fontFamily: 'Georgia' }}
                   >
                     {label}
                   </div>

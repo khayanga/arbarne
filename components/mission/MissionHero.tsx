@@ -64,7 +64,7 @@ export default function MissionHero() {
                 
                 className="block pb-2 bg-linear-to-br from-teal-900 via-emerald-500 to-green-400 bg-clip-text text-transparent tracking-tight">
               
-                African agriculture
+                African Agriculture
               </span>
             </h1>
 
