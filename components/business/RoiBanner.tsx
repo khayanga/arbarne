@@ -23,7 +23,7 @@ export default function ROIBanner() {
             {[
               { value: '+30%', label: 'Average yield increase', color: '#4ade80' },
               { value: '-20%', label: 'Reduction in operational costs', color: '#2dd4bf' },
-              { value: '5 min', label: 'Time to get Shambani live', color: '#4ade80' },
+              { value: '5 min', label: 'Time to get Shambany live', color: '#4ade80' },
               { value: '99.8%', label: 'Platform uptime SLA', color: '#2dd4bf' },
             ].map(({ value, label, color }) => (
               <div key={label} className="rounded-[0.5rem] border border-white/8 bg-white/4 px-6 py-6">
