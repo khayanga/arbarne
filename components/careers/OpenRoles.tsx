@@ -9,7 +9,7 @@ const roles = [
     dept: 'Sales & Growth',
     desc: 'Drive Shambany adoption by engaging farm managers and farm owners across Kenya. You will demo the platform, onboard new clients, and build lasting relationships that grow the Arbarne ecosystem.',
     tags: ['Sales', 'AgriTech', 'Client Relations', 'Field-based'],
-    applyLink: 'mailto:careers@arbarnegroup.com?subject=Application: Digital Sales Agent',
+    applyLink: 'https://forms.gle/T9Njtpi91b4GVskt7',
     featured: true,
   },
 
@@ -43,7 +43,7 @@ export default function OpenRoles() {
             </div>
             <h2
               className="font-bold text-teal-900 leading-tight"
-              style={{ fontFamily: 'Georgia, serif', fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)' }}
+              style={{ fontFamily: 'Georgia', fontSize: 'clamp(1.8rem, 3.5vw, 2.8rem)' }}
             >
               We are hiring.
             </h2>
@@ -165,12 +165,14 @@ export default function OpenRoles() {
                   <div className="flex flex-col items-start lg:items-end gap-4 lg:min-w-45">
                     <a
                       href={applyLink}
+                      target="_blank"
+                       rel="noopener noreferrer"
                       className={`group inline-flex items-center gap-2.5 px-7 py-4 rounded-[0.5rem] font-bold text-md transition-all duration-200 whitespace-nowrap ${
                         featured
                           ? 'bg-green-500 hover:bg-green-400 text-white shadow-lg shadow-green-500/25'
                           : 'bg-teal-900 hover:bg-teal-800 text-white'
                       }`}
-                      style={{ fontFamily: 'Georgia, serif' }}
+                      style={{ fontFamily: 'Georgia' }}
                     >
                       Click to Apply
                       <ArrowRight
