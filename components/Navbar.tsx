@@ -12,7 +12,7 @@ export default function Navbar() {
   const pathname = usePathname()
 
   const isLightPage =
-    pathname === '/business' || pathname === '/resources'
+    pathname === '/pricing' || pathname === '/resources'
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20)
