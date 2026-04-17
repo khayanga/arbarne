@@ -13,7 +13,7 @@ const management = [
     linkedin: 'https://www.linkedin.com/in/alice-ayuma/',
   },
   {
-    name: 'Mariam Kagbo Dora',
+    name: 'Dora Mariam Kargbo',
     role: 'Chief Operating Officer',
     bio: 'Oversees operations and execution across programs, partnerships, and field coordination.',
     image: '/mariam.jpg',
