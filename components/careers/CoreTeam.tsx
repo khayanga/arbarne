@@ -13,10 +13,10 @@ const team = [
     linkedin: "https://www.linkedin.com/in/virgil-khayanga-113b18262/",
   },
   {
-    name:"Lydia Kiswii",
+    name:"Lydhia Kiswii",
     role:"Head of Programs",
     bio:"Leads the delivery of transformative programs empowering farmers with technology and expertise.",
-    image:"/lydhia.jpg",
+    image:"/lydia.jpg",
     icon: Package,
     color: "#4ade80",
     linkedin:"https://www.linkedin.com/in/lydhia-kiswii-msc-613b29131/"
