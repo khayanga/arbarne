@@ -16,13 +16,13 @@ const team = [
     name:"Lydia Kiswii",
     role:"Head of Programs",
     bio:"Leads the delivery of transformative programs empowering farmers with technology and expertise.",
-    image:"/lydia.jpg",
+    image:"/lydhia.jpg",
     icon: Package,
     color: "#4ade80",
     linkedin:"https://www.linkedin.com/in/lydhia-kiswii-msc-613b29131/"
   },
   {
-    name: "Beryl Awuor",
+    name: "Beryle Awuor",
     role: "Farmer Experience Associate",
     dept: "Operations",
     bio: "Works closely with farmers to ensure seamless onboarding and support.",
